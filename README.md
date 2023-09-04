@@ -1,2 +1,2 @@
-# HarmonyTutorial
-about harmony develop tutorial
+# 鸿蒙开发
+记录在华为开发者学堂学习鸿蒙的过程
