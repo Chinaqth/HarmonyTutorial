@@ -1,3 +1,4 @@
+import AppContext from '@ohos.app.ability.common';
 import { FONT_SIZE_TITLE, IMAGE_TITLE_SIZE, PADDING_TITLE } from '../constants/Constants'
 
 @Preview({ title: "title" })
@@ -11,6 +12,10 @@ export struct TitleComponent {
         Image($r('app.media.ic_public_back'))
           .size(IMAGE_TITLE_SIZE)
           .margin({ right: 20 })
+          .onClick( () => {
+            let handler = getContext() as AppContext.UIAbilityContext;
+            handler.terminateSelf();
+          })
         Text(this.title)
           .fontSize(FONT_SIZE_TITLE)
           .fontWeight(FontWeight.Medium)
