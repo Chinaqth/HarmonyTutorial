@@ -1,30 +1,30 @@
-import { imageTitleSize, paddingTitle } from '../constants/Constants'
+import { FONT_SIZE_TITLE, IMAGE_TITLE_SIZE, PADDING_TITLE } from '../constants/Constants'
 
 @Preview({ title: "title" })
 @Component
 export struct TitleComponent {
-  @State title: Resource = $r('app.string.title_a')
+  @State title: Resource = $r('app.string.title')
 
   build() {
     Row() {
       Row() {
         Image($r('app.media.ic_public_back'))
-          .size(imageTitleSize)
+          .size(IMAGE_TITLE_SIZE)
           .margin({ right: 20 })
         Text(this.title)
-          .fontSize(25)
+          .fontSize(FONT_SIZE_TITLE)
           .fontWeight(FontWeight.Medium)
       }
       .width('50%')
       .justifyContent(FlexAlign.Start)
       Row() {
         Image($r('app.media.loading'))
-          .size(imageTitleSize)
+          .size(IMAGE_TITLE_SIZE)
       }
       .width('50%')
       .justifyContent(FlexAlign.End)
     }
     .width('100%')
-    .padding(paddingTitle)
+    .padding(PADDING_TITLE)
   }
 }

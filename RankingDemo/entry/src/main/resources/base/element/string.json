@@ -11,6 +11,22 @@
     {
       "name": "EntryAbility_label",
       "value": "label"
+    },
+    {
+      "name": "title",
+      "value": "Ranking"
+    },
+    {
+      "name": "subtitle_rank",
+      "value": "rank"
+    },
+    {
+      "name": "subtitle_category",
+      "value": "category"
+    },
+    {
+      "name": "subtitle_vote_num",
+      "value": "vote"
     }
   ]
 }

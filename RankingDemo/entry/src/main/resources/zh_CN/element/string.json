@@ -13,8 +13,20 @@
       "value": "label"
     },
     {
-      "name": "title_a",
+      "name": "title",
       "value": "Ranking"
+    },
+    {
+      "name": "subtitle_rank",
+      "value": "Rank"
+    },
+    {
+      "name": "subtitle_category",
+      "value": "category"
+    },
+    {
+      "name": "subtitle_vote_num",
+      "value": "vote"
     }
   ]
 }

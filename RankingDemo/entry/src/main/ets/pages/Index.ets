@@ -1,3 +1,4 @@
+import { SubTitleComponent } from '../views/SubTitleComponent'
 import { TitleComponent } from '../views/TitleComponent'
 @Entry
 @Component
@@ -7,9 +8,7 @@ struct Index {
   build() {
     Column(){
       TitleComponent()
-      Text('aaaa')
-        .height('100%')
+      SubTitleComponent()
     }
-
   }
 }
