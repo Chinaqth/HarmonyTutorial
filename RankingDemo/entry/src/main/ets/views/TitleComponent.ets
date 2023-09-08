@@ -17,6 +17,7 @@ export struct TitleComponent {
       }
       .width('50%')
       .justifyContent(FlexAlign.Start)
+
       Row() {
         Image($r('app.media.loading'))
           .size(IMAGE_TITLE_SIZE)
@@ -27,4 +28,9 @@ export struct TitleComponent {
     .width('100%')
     .padding(PADDING_TITLE)
   }
+
+  @Builder aaa() {
+
+  }
 }
+

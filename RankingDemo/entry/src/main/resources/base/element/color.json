@@ -7,6 +7,10 @@
     {
       "name": "sub_title_color",
       "value": "#999999"
+    },
+    {
+      "name": "content_color",
+      "value": "#333333"
     }
   ]
 }

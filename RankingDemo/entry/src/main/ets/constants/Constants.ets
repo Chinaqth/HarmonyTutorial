@@ -6,6 +6,7 @@ export const PADDING_TITLE: Padding = {
   right: 20,
   bottom: 20
 }
+
 export const PADDING_SUBTITLE: Padding = {
   top: 20,
   left: 20,
@@ -18,6 +19,25 @@ export const IMAGE_TITLE_SIZE: SizeOptions = {
   height: 30
 }
 
+export function paddingVertical(vertical: number): Padding {
+  return {
+    top: vertical,
+    bottom: vertical
+  }
+}
+
+export function paddingHorizon(horizon: number): Padding {
+  return {
+    left: horizon,
+    right: horizon
+  }
+}
 export const FONT_SIZE_TITLE: number = 20
+
 export const FONT_SIZE_SUB_TITLE: number = 16
+
 export const FONT_SIZE_BODY: number = 12
+
+export const FULL_SCREEN_SIZE = '100%'
+
+export const APP_BACKGROUND_COLOR= '#F1F3F5'

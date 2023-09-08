@@ -18,7 +18,7 @@ export struct SubTitleComponent {
         .width('20%')
         .textAlign(TextAlign.End)
     }
-    .width('100%')
-    .padding(PADDING_SUBTITLE)
+    .width('85%')
+    .margin({bottom:20})
   }
 }
