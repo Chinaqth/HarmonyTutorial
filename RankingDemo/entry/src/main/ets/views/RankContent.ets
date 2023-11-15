@@ -5,7 +5,6 @@ import { FONT_SIZE_BODY, FULL_SCREEN_SIZE } from '../constants/Constants'
 @Component
 export struct RankContent {
   private rankDate: RankData
-  name:string
   build() {
     Row() {
       Text(this.rankDate.id)
