@@ -5,7 +5,7 @@ import { FONT_SIZE_TITLE, IMAGE_TITLE_SIZE, PADDING_TITLE } from '../constants/C
 @Component
 export struct TitleComponent {
   @State title: Resource = $r('app.string.title')
-
+  @Link isChangeData: boolean
   build() {
     Row() {
       Row() {
@@ -26,11 +26,9 @@ export struct TitleComponent {
       Row() {
         Image($r('app.media.loading'))
           .size(IMAGE_TITLE_SIZE)
-          .onClick(() => {
-            //TODO
-
-          })
-      }
+      }.onClick( () => {
+        this.isChangeData = !this.isChangeData
+      })
       .width('50%')
       .justifyContent(FlexAlign.End)
     }

@@ -4,8 +4,8 @@ import {
   APP_BACKGROUND_COLOR,
   FONT_SIZE_BODY,
   FULL_SCREEN_SIZE,
-paddingHorizon,
-paddingVertical,
+  paddingHorizon,
+  paddingVertical,
   PADDING_SUBTITLE
 } from '../constants/Constants'
 import { DataViewModel } from '../viewmodel/DataViewModel'
@@ -17,13 +17,15 @@ let dataViewModel: DataViewModel = new DataViewModel()
 
 @Entry
 @Component
-struct Index {
+struct RankPage {
   @State message: string = 'Hello World'
   @State dataSource: Array<RankData> = dataViewModel.loadRankData()
+  @State dataSource2: Array<RankData> = dataViewModel.loadRankDataBk()
+  @State isSwitchData: boolean = false
 
   build() {
     Column() {
-      TitleComponent()
+      TitleComponent({ isChangeData: $isSwitchData, title: $r('app.string.title') })
       SubTitleComponent()
       this.RankList()
     }
@@ -34,7 +36,7 @@ struct Index {
   @Builder RankList() {
     Column() {
       List() {
-        ForEach(this.dataSource,
+        ForEach(this.isSwitchData ? this.dataSource : this.dataSource2,
           (item) => {
             ListItem() {
               RankContent({rankDate: item})
