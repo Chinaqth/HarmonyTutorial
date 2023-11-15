@@ -22,6 +22,18 @@
           ]
         }
       ]
+    },
+    {
+      "name": "todolist",
+      "srcPath": "./todolist",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "default"
+          ]
+        }
+      ]
     }
   ]
 }

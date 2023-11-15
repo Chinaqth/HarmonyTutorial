@@ -26,6 +26,10 @@ export struct TitleComponent {
       Row() {
         Image($r('app.media.loading'))
           .size(IMAGE_TITLE_SIZE)
+          .onClick(() => {
+            //TODO
+
+          })
       }
       .width('50%')
       .justifyContent(FlexAlign.End)
