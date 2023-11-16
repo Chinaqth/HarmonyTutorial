@@ -1,0 +1,27 @@
+{
+  "module": {
+    "name": "SimpleDemo",
+    "type": "feature",
+    "description": "$string:module_desc",
+    "mainElement": "SimpleDemoAbility",
+    "deviceTypes": [
+      "phone",
+      "tablet"
+    ],
+    "deliveryWithInstall": true,
+    "installationFree": false,
+    "pages": "$profile:main_pages",
+    "abilities": [
+      {
+        "name": "SimpleDemoAbility",
+        "srcEntry": "./ets/simpledemoability/SimpleDemoAbility.ts",
+        "description": "$string:SimpleDemoAbility_desc",
+        "icon": "$media:icon",
+        "label": "$string:SimpleDemoAbility_label",
+        "startWindowIcon": "$media:icon",
+        "startWindowBackground": "$color:start_window_background",
+        "exported": true
+      }
+    ]
+  }
+}

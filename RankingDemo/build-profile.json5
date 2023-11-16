@@ -46,6 +46,18 @@
           ]
         }
       ]
+    },
+    {
+      "name": "SimpleDemo",
+      "srcPath": "./SimpleDemo",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "default"
+          ]
+        }
+      ]
     }
   ]
 }
