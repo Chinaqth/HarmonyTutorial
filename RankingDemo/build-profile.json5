@@ -34,6 +34,18 @@
           ]
         }
       ]
+    },
+    {
+      "name": "pagerouter",
+      "srcPath": "./pagerouter",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "default"
+          ]
+        }
+      ]
     }
   ]
 }

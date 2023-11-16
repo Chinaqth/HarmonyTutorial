@@ -1,0 +1,16 @@
+{
+  "string": [
+    {
+      "name": "module_desc",
+      "value": "模块描述"
+    },
+    {
+      "name": "PagerouterAbility_desc",
+      "value": "description"
+    },
+    {
+      "name": "PagerouterAbility_label",
+      "value": "label"
+    }
+  ]
+}
