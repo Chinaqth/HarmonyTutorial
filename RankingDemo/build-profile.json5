@@ -58,6 +58,18 @@
           ]
         }
       ]
+    },
+    {
+      "name": "complexdemo",
+      "srcPath": "./complexdemo",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "default"
+          ]
+        }
+      ]
     }
   ]
 }

@@ -1,0 +1,16 @@
+{
+  "string": [
+    {
+      "name": "module_desc",
+      "value": "模块描述"
+    },
+    {
+      "name": "ComplexdemoAbility_desc",
+      "value": "description"
+    },
+    {
+      "name": "ComplexdemoAbility_label",
+      "value": "label"
+    }
+  ]
+}
