@@ -1,0 +1,16 @@
+{
+  "string": [
+    {
+      "name": "module_desc",
+      "value": "module description"
+    },
+    {
+      "name": "NetdemoAbility_desc",
+      "value": "description"
+    },
+    {
+      "name": "NetdemoAbility_label",
+      "value": "label"
+    }
+  ]
+}

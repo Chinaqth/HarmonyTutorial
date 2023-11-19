@@ -1,0 +1,16 @@
+{
+  "string": [
+    {
+      "name": "module_desc",
+      "value": "模块描述"
+    },
+    {
+      "name": "NetdemoAbility_desc",
+      "value": "description"
+    },
+    {
+      "name": "NetdemoAbility_label",
+      "value": "label"
+    }
+  ]
+}

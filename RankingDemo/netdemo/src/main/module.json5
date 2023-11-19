@@ -1,0 +1,30 @@
+{
+  "module": {
+    "name": "netdemo",
+    "type": "feature",
+    "description": "$string:module_desc",
+    "mainElement": "NetdemoAbility",
+    "deviceTypes": [
+      "phone",
+      "tablet"
+    ],
+    "requestPermissions": [{
+      "name": "ohos.permission.INTERNET"
+    }],
+    "deliveryWithInstall": true,
+    "installationFree": false,
+    "pages": "$profile:main_pages",
+    "abilities": [
+      {
+        "name": "NetdemoAbility",
+        "srcEntry": "./ets/netdemoability/NetdemoAbility.ts",
+        "description": "$string:NetdemoAbility_desc",
+        "icon": "$media:icon",
+        "label": "$string:NetdemoAbility_label",
+        "startWindowIcon": "$media:icon",
+        "startWindowBackground": "$color:start_window_background",
+        "exported": true
+      }
+    ]
+  }
+}
